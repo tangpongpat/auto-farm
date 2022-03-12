@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(1),
   },
   title: {
-    color: "#26a144",
+    color: "#00FFFF",
   },
   subtitle: {
     color: "tan",
@@ -40,7 +40,7 @@ const Header = () => {
         <Avatar className={classes.avatar} src={avatar} alt="Mahmudul Alam" />
       </Grid>
       <Typography className={classes.title} variant="h4">
-        <Typed strings={["TTMONEY"]} typeSpeed={40} />
+        <Typed strings={["Auto-farm"]} typeSpeed={40} />
       </Typography>
 
       <Typography className={classes.subtitle} variant="h5">
