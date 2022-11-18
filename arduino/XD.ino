@@ -30,9 +30,9 @@ WidgetLCD lcd(V6);
 
 char auth[] = "XWhJDY7stVpMAMpq8X4nJ4DTdJ0Gp7EF";
 
-char ssid[] = "SEKKEE5_2.4G";
+char ssid[] = "wifiID";
 
-char pass[] = "sekkee534";
+char pass[] = "WIFIPASS";
 
 BLYNK_CONNECTED() {
 
